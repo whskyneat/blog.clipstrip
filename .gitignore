@@ -22,6 +22,8 @@ web/app/uploads
 !web/app/mu-plugins/disallow-indexing.php
 !web/app/mu-plugins/register-theme-directory.php
 !web/app/mu-plugins/bedrock-autoloader.php
+!web/app/revslider
+!web/app/x-shortcodes
 
 # Vendor (e.g. Composer)
 vendor
@@ -33,3 +35,4 @@ node_modules
 # Vagrant
 bin
 .vagrant
+
