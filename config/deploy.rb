@@ -1,6 +1,11 @@
 set :application, 'blog.clipstrip.com'
 set :repo_url, 'git@github.com:whskyneat/blog.clipstrip.git'
 
+set :ssh_options, {
+    forward_agent: true,
+    port: 3030  
+}
+
 # Branch options
 # Prompts for the branch name (defaults to current branch)
 #ask :branch, -> { `git rev-parse --abbrev-ref HEAD`.chomp }
