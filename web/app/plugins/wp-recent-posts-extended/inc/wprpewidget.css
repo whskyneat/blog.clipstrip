@@ -1,0 +1,23 @@
+#widget_wprpe h2{
+	overflow: hidden;
+	height: 100%;
+	font-weight: normal;
+	font-size: 2.1em;
+	line-height: 1.2em;
+	color: #575757;
+	padding: 0px 0px 2px 3px;
+}
+
+#widget_wprpe ul{
+	list-style-type: none;
+	margin-bottom: 15px;
+}
+
+#widget_wprpe ul li{
+	color: #777;
+	font-size: 13px;
+	background-image: url(arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left: 14px;
+}

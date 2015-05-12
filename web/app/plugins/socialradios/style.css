@@ -1,0 +1,30 @@
+#socialradios {
+    background: none repeat scroll 0 0 #CCCCCC;
+    padding: 0px;
+    bottom: -7px;
+    margin: 0;
+    
+    width: 100%;
+    z-index: 99999;
+}
+#socialradios .footer-title {
+    float: left;
+    font-size: 12px;
+    padding-top: 6px;
+    text-align: center;
+    width: 10%;
+}
+
+#player_iframe {
+	margin: 0 auto;
+}
+
+
+@media (max-width:770px) {
+	#player_iframe {
+		width: 100% !important;
+	}
+	#socialradios .footer-title {
+		display: none;
+	}
+}
